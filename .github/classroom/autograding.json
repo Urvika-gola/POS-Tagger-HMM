@@ -41,9 +41,9 @@
       "points": null
     },
     {
-      "name": "test_hmm_97",
+      "name": "test_hmm_96",
       "setup": "sudo -H pip3 install -qr requirements.txt",
-      "run": "pytest test_pos_tagger_hmm.py -k test_hmm_97",
+      "run": "pytest test_pos_tagger_hmm.py -k test_hmm_96",
       "input": "",
       "output": "",
       "comparison": "exact",
