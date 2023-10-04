@@ -3,7 +3,7 @@
     {
       "name": "test_majority_max",
       "setup": "sudo -H pip3 install -qr requirements.txt",
-      "run": "pytest test_pos_tagger_baselines.py -k test_majority_max",
+      "run": "python -m pytest  -k test_majority_max",
       "input": "",
       "output": "",
       "comparison": "exact",
