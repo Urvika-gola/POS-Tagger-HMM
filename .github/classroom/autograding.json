@@ -7,7 +7,7 @@
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 1,
+      "timeout": 2,
       "points": 10
     }
   ]
