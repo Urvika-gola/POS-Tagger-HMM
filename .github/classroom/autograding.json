@@ -8,7 +8,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 1,
-      "points": null
+      "points": 10
     },
     {
       "name": "test_hmm_viterbi_matrix",
@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 3,
-      "points": null
+      "points": 20
     },
     {
       "name": "test_hmm_viterbi_backpointers",
@@ -28,7 +28,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 3,
-      "points": null
+      "points": 30
     },
     {
       "name": "test_hmm_morphology",
@@ -38,7 +38,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 3,
-      "points": null
+      "points": 10
     },
     {
       "name": "test_hmm_96",
@@ -48,7 +48,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 3,
-      "points": null
+      "points": 10
     }
   ]
 }
