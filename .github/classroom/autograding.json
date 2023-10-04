@@ -3,11 +3,11 @@
     {
       "name": "test_majority_max",
       "setup": "sudo -H pip3 install -qr requirements.txt",
-      "run": "python -m pytest  -k test_majority_max",
+      "run": "pytest test_pos_tagger_baselines.py -k test_majority_max",
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 2,
+      "timeout": 1,
       "points": 10
     }
   ]
