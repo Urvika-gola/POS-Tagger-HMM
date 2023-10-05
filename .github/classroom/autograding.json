@@ -9,6 +9,46 @@
       "comparison": "exact",
       "timeout": 1,
       "points": 10
+    },
+    {
+      "name": "test_hmm_viterbi_matrix",
+      "setup": "sudo -H pip3 install -qr requirements.txt",
+      "run": "pytest test_pos_tagger_hmm.py -k test_hmm_viterbi_matrix",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 3,
+      "points": 20
+    },
+    {
+      "name": "test_hmm_viterbi_backpointers",
+      "setup": "sudo -H pip3 install -qr requirements.txt",
+      "run": "pytest test_pos_tagger_hmm.py -k test_hmm_viterbi_backpointers",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 3,
+      "points": 30
+    },
+    {
+      "name": "test_hmm_morphology",
+      "setup": "sudo -H pip3 install -qr requirements.txt",
+      "run": "pytest test_pos_tagger_hmm.py -k test_hmm_morphology",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 3,
+      "points": 10
+    },
+    {
+      "name": "test_hmm_96",
+      "setup": "sudo -H pip3 install -qr requirements.txt",
+      "run": "pytest test_pos_tagger_hmm.py -k test_hmm_96",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 3,
+      "points": 10
     }
   ]
 }
